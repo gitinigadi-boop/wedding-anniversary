@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Wedding Anniversary</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="overlay">
+
+<h1 class="title">
+Happy Wedding Anniversary
+</h1>
+
+<h2>
+Umesh Kabbur
+<br>
+❤️
+<br>
+Bhagyalaxmi Kabbur
+</h2>
+
+<div class="slideshow">
+
+<img id="slide" src="photo1.jpg">
+
+</div>
+
+<p class="wish">
+
+May your love grow stronger with every passing year.
+<br><br>
+
+Wishing you both endless happiness,
+love and togetherness.
+
+</p>
+
+<button onclick="playMusic()">
+🎵 Play Music
+</button>
+
+</div>
+
+<audio id="music" loop>
+
+<source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
